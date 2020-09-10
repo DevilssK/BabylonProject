@@ -1,4 +1,4 @@
-import { Engine, Scene, SceneLoader } from "@babylonjs/core";
+import { Engine, Scene, SceneLoader, Vector3 } from "@babylonjs/core";
 import "@babylonjs/materials";
 
 import { runScene } from "./scenes/scene";
@@ -38,6 +38,8 @@ export class Game {
                 }
                 this.scene.activeCamera.attachControl(this.engine.getRenderingCanvas(), false);
 
+                this.scene.meshes.forEach((m) => m.checkCollisions = true);
+                
                 // Run the scene to attach scripts etc.
                 runScene(this.scene, rootUrl);
 

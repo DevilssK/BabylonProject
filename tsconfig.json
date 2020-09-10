@@ -6,11 +6,11 @@
         "declaration": true,
         "outDir": "./build/src",
         "declarationDir": "./declaration/src",
-        "experimentalDecorators": true,
         "typeRoots": [
             "node_modules/@types"
         ],
         "skipLibCheck": true,
+        "experimentalDecorators": true,
         "lib": [
             "es2015.promise",
             "es2015",

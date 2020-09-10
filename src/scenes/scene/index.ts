@@ -9,7 +9,8 @@ import { attachScripts, configurePostProcesses } from "../tools";
  * Defines the map of all available scripts in the project.
  */
 export const scriptsMap = {
-	"src/scenes/scene/camera.ts": require("./camera"),
+	"src/scenes/scene/player.ts": require("./player"),
+	"src/scenes/scene/playerCamera.ts": require("./playerCamera"),
 }
 
 /**
