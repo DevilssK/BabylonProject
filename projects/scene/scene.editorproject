@@ -14,6 +14,16 @@
 			"isMultiMaterial": false
 		},
 		{
+			"bindedMeshes": [],
+			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [],
+			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
+			"isMultiMaterial": false
+		},
+		{
 			"bindedMeshes": [
 				"287f4884-bbf3-4c14-969b-83371249634d"
 			],
@@ -21,20 +31,10 @@
 			"isMultiMaterial": false
 		},
 		{
-			"bindedMeshes": [],
-			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
-			"isMultiMaterial": false
-		},
-		{
 			"bindedMeshes": [
 				"42d0385d-4fb7-409c-a26e-0cbf406a4ccd"
 			],
 			"json": "ground-bc1e481c-81cf-4866-a090-0ec72b99116e.json",
-			"isMultiMaterial": false
-		},
-		{
-			"bindedMeshes": [],
-			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
 			"isMultiMaterial": false
 		},
 		{
@@ -55,6 +55,8 @@
 		"ground-42d0385d-4fb7-409c-a26e-0cbf406a4ccd.json",
 		"sky-18b3d26b-05ed-494e-b908-9d795df06ff5.json",
 		"cube-287f4884-bbf3-4c14-969b-83371249634d.json",
+		"DeathSpike-e3e6a240-3885-496b-884d-a8127f7f9235.json",
+		"Rotator-28049c24-417d-4a81-b17d-af0973ccb133.json",
 		"player-f57b49d3-e402-417c-9f93-0e1271df67a5.json"
 	],
 	"transformNodes": [
@@ -142,7 +144,7 @@
 			"script": {},
 			"postProcesses": {
 				"ssao": {
-					"enabled": true,
+					"enabled": false,
 					"json": {
 						"tags": null,
 						"totalStrength": 1.5,
@@ -340,13 +342,13 @@
 	"project": {
 		"camera": {
 			"tags": "modified",
-			"alpha": 2.374169632941016,
-			"beta": 1.3771842582775287,
-			"radius": 92.82229298758621,
+			"alpha": 10.392421068950462,
+			"beta": 0.1251427813908446,
+			"radius": 247.537958779584,
 			"target": [
-				-24.69440808534169,
-				19.438995950949923,
-				25.40534585638526
+				0,
+				0,
+				0
 			],
 			"inertialAlphaOffset": 0,
 			"inertialBetaOffset": 0,
@@ -376,9 +378,9 @@
 			],
 			"speed": 2,
 			"position": [
-				-90.25062113493478,
-				37.29844341207259,
-				88.6461644979324
+				-17.52596466345926,
+				245.60217626770313,
+				-25.44509013437131
 			],
 			"upVector": [
 				0,
@@ -453,7 +455,7 @@
 	},
 	"postProcesses": {
 		"ssao": {
-			"enabled": true,
+			"enabled": false,
 			"json": {
 				"tags": null,
 				"totalStrength": 1.5,

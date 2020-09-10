@@ -4,18 +4,5 @@
 	"generateSceneOnSave": true,
 	"firstLoad": false,
 	"watchProject": true,
-	"pluginsPreferences": {
-		"babylonjs-editor-quixel-plugin": {
-			"objectScale": 1,
-			"ambientColor": [
-				0,
-				0,
-				0
-			],
-			"automaticallyAddToScene": true,
-			"checkCollisions": true,
-			"checkColiisionsOnLowerLod": true,
-			"lodDistance": 20
-		}
-	}
+	"pluginsPreferences": {}
 }

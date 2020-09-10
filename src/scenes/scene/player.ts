@@ -1,6 +1,6 @@
 import {
     Mesh, AnimationRange, Animatable, ArcRotateCamera, Animation, Vector3,
-    Space, Bone, KeyboardInfo, KeyboardEventTypes, Epsilon, Quaternion, Scalar,
+    Space, Bone, KeyboardInfo, KeyboardEventTypes, Epsilon, Quaternion, Scalar, Collider,
 } from "@babylonjs/core";
 
 import { visibleInInspector, onKeyboardEvent, fromScene } from "../tools";
@@ -175,6 +175,16 @@ export default class Player extends Mesh {
         if (actionsCount > 0) {
             this._syncRotation(-this._camera.alpha - (Math.PI * 0.5));
         }
+        let collider = new Collider()
+
+
+        if (this.intersectsMesh(this._scene.getMeshByName("DeathSpike"), true)) {
+        this.position.x = -75;
+        this.position.y = -75;
+
+        }
+
+      
     }
 
     /**

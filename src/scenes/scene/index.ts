@@ -11,6 +11,7 @@ import { attachScripts, configurePostProcesses } from "../tools";
 export const scriptsMap = {
 	"src/scenes/scene/player.ts": require("./player"),
 	"src/scenes/scene/playerCamera.ts": require("./playerCamera"),
+	"src/scenes/scene/Rotator.ts": require("./Rotator"),
 }
 
 /**
