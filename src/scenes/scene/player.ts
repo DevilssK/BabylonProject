@@ -51,7 +51,7 @@ export default class Player extends Mesh {
     @fromScene("playerCamera")
     private _camera: ArcRotateCamera;
 
-    private _actions: IPlayerActions = { };
+    private _actions: IPlayerActions = {};
     private _shift: boolean = false;
     private _targetBone: Bone = null;
 
@@ -60,6 +60,7 @@ export default class Player extends Mesh {
 
     private _moveAxis: Vector3 = Vector3.Zero();
     private _moveDirection: Vector3 = Vector3.Zero();
+    private a = 0; // for oscillation
 
     /**
      * Override constructor.
@@ -77,7 +78,7 @@ export default class Player extends Mesh {
 
         // Configure ellipsoid
         this.ellipsoid.set(20, 100, 20);
-        this.ellipsoidOffset.set(0, 100, 0);
+        this.ellipsoidOffset.set(0, 102, 0);
 
         // Configure actions.
         this._actions = {
@@ -179,12 +180,19 @@ export default class Player extends Mesh {
 
 
         if (this.intersectsMesh(this._scene.getMeshByName("DeathSpike"), true)) {
-        this.position.x = -75;
-        this.position.y = -75;
+            this.position.x = -75;
+            this.position.y = -75;
 
         }
+        // if (this.intersectsMesh(this._scene.getMeshByName("MoovingGround"), true)){
+        // if (this._boundingInfo.intersects(this._scene.getMeshByName("MoovingGround")._boundingInfo, true)) {
 
-      
+        //     console.log("colliding")
+        //     this.position.x = new Vector3(Math.cos(this.a) * 200, this.position.y, this.position.z).x;
+
+        // }
+
+
     }
 
     /**
@@ -297,7 +305,7 @@ export default class Player extends Mesh {
         }
 
         const key = info.event.keyCode;
-        
+
         let action = this._actions[key];
         if (!action) { return; }
 

@@ -14,16 +14,6 @@
 			"isMultiMaterial": false
 		},
 		{
-			"bindedMeshes": [],
-			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
-			"isMultiMaterial": false
-		},
-		{
-			"bindedMeshes": [],
-			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
-			"isMultiMaterial": false
-		},
-		{
 			"bindedMeshes": [
 				"287f4884-bbf3-4c14-969b-83371249634d"
 			],
@@ -35,6 +25,18 @@
 				"42d0385d-4fb7-409c-a26e-0cbf406a4ccd"
 			],
 			"json": "ground-bc1e481c-81cf-4866-a090-0ec72b99116e.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [
+				"c1aa748f-9783-4b2e-94ed-187890d11e46"
+			],
+			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [],
+			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
 			"isMultiMaterial": false
 		},
 		{
@@ -52,12 +54,13 @@
 		"EnvironmentBRDFTexture-280.json"
 	],
 	"meshes": [
-		"ground-42d0385d-4fb7-409c-a26e-0cbf406a4ccd.json",
 		"sky-18b3d26b-05ed-494e-b908-9d795df06ff5.json",
+		"ground-42d0385d-4fb7-409c-a26e-0cbf406a4ccd.json",
 		"cube-287f4884-bbf3-4c14-969b-83371249634d.json",
 		"DeathSpike-e3e6a240-3885-496b-884d-a8127f7f9235.json",
 		"Rotator-28049c24-417d-4a81-b17d-af0973ccb133.json",
-		"player-f57b49d3-e402-417c-9f93-0e1271df67a5.json"
+		"player-f57b49d3-e402-417c-9f93-0e1271df67a5.json",
+		"MovingGround-c1aa748f-9783-4b2e-94ed-187890d11e46.json"
 	],
 	"transformNodes": [
 		"player-078c2d5d-b690-4f72-bfb1-614c5eb90ad3.json"
@@ -342,9 +345,9 @@
 	"project": {
 		"camera": {
 			"tags": "modified",
-			"alpha": 10.392421068950462,
-			"beta": 0.1251427813908446,
-			"radius": 247.537958779584,
+			"alpha": 16.601278640181253,
+			"beta": 1.403739640239367,
+			"radius": 447.51951257863453,
 			"target": [
 				0,
 				0,
@@ -378,9 +381,9 @@
 			],
 			"speed": 2,
 			"position": [
-				-17.52596466345926,
-				245.60217626770313,
-				-25.44509013437131
+				-276.61441320549415,
+				74.41387371987788,
+				-343.83245330189646
 			],
 			"upVector": [
 				0,

@@ -23,7 +23,10 @@ export default class PlayerCamera extends ArcRotateCamera {
      */
     public onUpdate(): void {
         // Nothing at the moment.
+
+        
     }
+
 
     /**
      * Request pointer lock.

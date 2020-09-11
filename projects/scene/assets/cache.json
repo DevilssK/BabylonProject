@@ -42,9 +42,19 @@
 			"base64": "../css/images/ts.png"
 		},
 		{
+			"id": "cube.ts",
+			"key": "cube.ts",
+			"base64": "../css/images/ts.png"
+		},
+		{
 			"id": "graphs",
 			"key": "graphs",
 			"base64": "../css/svg/folder-open.svg"
+		},
+		{
+			"id": "movingPlatform.ts",
+			"key": "movingPlatform.ts",
+			"base64": "../css/images/ts.png"
 		},
 		{
 			"id": "player.ts",
