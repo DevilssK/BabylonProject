@@ -7,36 +7,68 @@
 	],
 	"materials": [
 		{
-			"bindedMeshes": [
-				"18b3d26b-05ed-494e-b908-9d795df06ff5"
-			],
+			"bindedMeshes": [],
 			"json": "sky-604ce754-eb69-4218-8c0f-a7d4354f721b.json",
 			"isMultiMaterial": false
 		},
 		{
+			"bindedMeshes": [],
+			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
+			"isMultiMaterial": false
+		},
+		{
 			"bindedMeshes": [
-				"287f4884-bbf3-4c14-969b-83371249634d"
+				"a63c3e64-92aa-49e4-bb5e-90bb466fbe11",
+				"19d6a1cd-9d3e-45e3-8d68-ee47a7914717"
+			],
+			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [
+				"287f4884-bbf3-4c14-969b-83371249634d",
+				"9b2e5db5-c6a7-4b74-a9eb-76115f3b61cf"
 			],
 			"json": "obstacle-c6b937fd-8d4f-4b1a-a395-2c8d7901a322.json",
 			"isMultiMaterial": false
 		},
 		{
 			"bindedMeshes": [
-				"42d0385d-4fb7-409c-a26e-0cbf406a4ccd"
+				"8c665243-75b4-49f7-a569-608cdca897c9"
+			],
+			"json": "TREE-16f6daba-0bab-4070-8f61-6b3717a12ddb.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [
+				"e3e6a240-3885-496b-884d-a8127f7f9235",
+				"d67f0a70-51d8-46f9-9f0d-7220b0cad78f",
+				"ce6918ff-f59b-44bc-b36f-f7ccce4c037d",
+				"fadd2c52-0ce8-4359-96ce-de26d511a50f"
+			],
+			"json": "YellowBlack-050a58f4-fbd3-4946-92ef-c3796e47ef23.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [
+				"d756c363-eb92-4c2c-81b4-e512207618ca"
+			],
+			"json": "sky-1936409b-a021-45cf-8b18-9a07ba1b9190.json",
+			"isMultiMaterial": false
+		},
+		{
+			"bindedMeshes": [
+				"42d0385d-4fb7-409c-a26e-0cbf406a4ccd",
+				"ce98d86c-0f15-47dc-a55a-ccdb8642f742"
 			],
 			"json": "ground-bc1e481c-81cf-4866-a090-0ec72b99116e.json",
 			"isMultiMaterial": false
 		},
 		{
 			"bindedMeshes": [
-				"c1aa748f-9783-4b2e-94ed-187890d11e46"
+				"079e6a11-745e-4259-bc20-60e7ae35b000"
 			],
-			"json": "player-body-f699815b-e046-41ed-8b7c-d1f685e5a346.json",
-			"isMultiMaterial": false
-		},
-		{
-			"bindedMeshes": [],
-			"json": "player-joints-25a1d8c4-b586-4c63-a54b-dea811a77806.json",
+			"json": "monkey-015ddf9d-fd45-4001-9603-f1b1a81bac64.json",
 			"isMultiMaterial": false
 		},
 		{
@@ -49,18 +81,48 @@
 	],
 	"textures": [
 		"night.env-107.json",
+		"Leaves0156_1_S.png-213.json",
+		"Leaves0120_35_S.png-212.json",
+		"fond-rayé-noir-jaune-98290605.jpg-189.json",
+		"12958_Spider_Monkey_diff.jpg-342.json",
+		"depositphotos_81636944-stock-illustration-black-texture-background.jpg-188.json",
+		"Map__3_Normal Bump.jpg-375.json",
 		"EnvironmentBRDFTexture0-89.json",
 		"EnvironmentBRDFTexture-94.json",
 		"EnvironmentBRDFTexture-280.json"
 	],
 	"meshes": [
-		"sky-18b3d26b-05ed-494e-b908-9d795df06ff5.json",
-		"ground-42d0385d-4fb7-409c-a26e-0cbf406a4ccd.json",
 		"cube-287f4884-bbf3-4c14-969b-83371249634d.json",
+		"ground-42d0385d-4fb7-409c-a26e-0cbf406a4ccd.json",
 		"DeathSpike-e3e6a240-3885-496b-884d-a8127f7f9235.json",
+		"mesh_mm1-b43db2d9-981e-4839-84bf-eb490ca63a2e.json",
+		"Rotator.DeathSpike-d67f0a70-51d8-46f9-9f0d-7220b0cad78f.json",
+		"MovingGround2-a63c3e64-92aa-49e4-bb5e-90bb466fbe11.json",
+		"Circle.003-dc08ce65-8052-4a31-b277-0b7af927c685.json",
+		"MovingGround-c1aa748f-9783-4b2e-94ed-187890d11e46.json",
+		"Rotator.DeathSpike-ce6918ff-f59b-44bc-b36f-f7ccce4c037d.json",
+		"Rotator-350a258a-cf16-4b92-b8a4-65985d26cf97.json",
 		"Rotator-28049c24-417d-4a81-b17d-af0973ccb133.json",
-		"player-f57b49d3-e402-417c-9f93-0e1271df67a5.json",
-		"MovingGround-c1aa748f-9783-4b2e-94ed-187890d11e46.json"
+		"Rotator-c2cd9cf1-135b-4ac5-8bf7-0b504004b486.json",
+		"ground-ce98d86c-0f15-47dc-a55a-ccdb8642f742.json",
+		"tree.002_Mesh.001-8b6820d7-3f7a-4a39-94e1-a00d8d7f8909.json",
+		"leaves_leaves.002-fe5002e5-bb46-41ce-97b9-fc5c344e1f36.json",
+		"tree.001_Mesh.002-34f2d8e9-543b-4efd-a256-eb5a4453ec36.json",
+		"leaves.001-8c665243-75b4-49f7-a569-608cdca897c9.json",
+		"Icosphere.001-91621a55-82da-4837-9f9c-03eec51cdee7.json",
+		"DeathSpike-19d6a1cd-9d3e-45e3-8d68-ee47a7914717.json",
+		"Carosserie_.007_Plane.008-17644b21-ae70-46b5-8eb8-7dfe03a28f9d.json",
+		"Victory-fadd2c52-0ce8-4359-96ce-de26d511a50f.json",
+		"Circle.010_Circle.004-be26ca0a-e9b3-4a92-a3fa-6ec3b86d2ab6.json",
+		"Icosphere-8cfdaf4d-3ab3-41ff-80b5-cf51545827ff.json",
+		"Cube.002-ace4b459-d64f-49e6-8bf5-a552a0526a3b.json",
+		"mesh_mm2-7f7be757-025b-4322-8473-124784fa7f9f.json",
+		"tree_Mesh.003-372ff405-9d9b-4ce3-adea-a1602d3f55d9.json",
+		"leaves.002_leaves.004-9b2e5db5-c6a7-4b74-a9eb-76115f3b61cf.json",
+		"Text_Mesh-b0e6f28b-63b1-4335-9682-bf97326ad44a.json",
+		"Sky-d756c363-eb92-4c2c-81b4-e512207618ca.json",
+		"12958_Spider_Monkey-079e6a11-745e-4259-bc20-60e7ae35b000.json",
+		"player-f57b49d3-e402-417c-9f93-0e1271df67a5.json"
 	],
 	"transformNodes": [
 		"player-078c2d5d-b690-4f72-bfb1-614c5eb90ad3.json"
@@ -337,7 +399,10 @@
 	},
 	"assets": {
 		"meshes": [
-			"dummy3.babylon"
+			"dummy3.babylon",
+			"Tree1.obj",
+			"Shelby.obj",
+			"12958_Spider_Monkey_v1_l2.obj"
 		],
 		"prefabs": [],
 		"graphs": []
@@ -345,13 +410,13 @@
 	"project": {
 		"camera": {
 			"tags": "modified",
-			"alpha": 16.601278640181253,
-			"beta": 1.403739640239367,
-			"radius": 447.51951257863453,
+			"alpha": 3.2133980260716615,
+			"beta": 1.2345679327056294,
+			"radius": 952.7326485541598,
 			"target": [
-				0,
-				0,
-				0
+				-427.66289765625,
+				142.4862824115537,
+				102.5771273090966
 			],
 			"inertialAlphaOffset": 0,
 			"inertialBetaOffset": 0,
@@ -381,9 +446,9 @@
 			],
 			"speed": 2,
 			"position": [
-				-276.61441320549415,
-				74.41387371987788,
-				-343.83245330189646
+				-1324.7303618424305,
+				456.8204405943215,
+				38.05192820726873
 			],
 			"upVector": [
 				0,

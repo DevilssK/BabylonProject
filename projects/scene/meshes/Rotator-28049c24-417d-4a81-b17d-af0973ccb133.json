@@ -3,13 +3,13 @@
 		{
 			"name": "Rotator",
 			"id": "28049c24-417d-4a81-b17d-af0973ccb133",
-			"uniqueId": 17,
+			"uniqueId": 23,
 			"type": "Mesh",
 			"tags": "modified",
 			"position": [
-				33.34906005859375,
-				32.319908142089844,
-				16.699941635131836
+				-346.11138916015625,
+				121.43970489501953,
+				382.1439208984375
 			],
 			"rotation": [
 				0,
@@ -55,7 +55,13 @@
 			"metadata": {
 				"isPickable": true,
 				"script": {
-					"name": "src/scenes/scene/Rotator.ts"
+					"name": "src/scenes/scene/Rotator.ts",
+					"properties": {
+						"inverted": {
+							"type": "boolean",
+							"value": false
+						}
+					}
 				}
 			},
 			"instances": [],

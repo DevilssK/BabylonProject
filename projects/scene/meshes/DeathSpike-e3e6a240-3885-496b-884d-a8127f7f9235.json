@@ -1,15 +1,16 @@
 {
+	"materials": [],
 	"meshes": [
 		{
 			"name": "DeathSpike",
 			"id": "e3e6a240-3885-496b-884d-a8127f7f9235",
-			"uniqueId": 18,
+			"uniqueId": 10,
 			"type": "Mesh",
 			"tags": "modified",
 			"position": [
-				5.684341970784096e-15,
-				0.7017112970352173,
-				-0.01729428954422474
+				-0.17055568099021912,
+				0.44886019825935364,
+				0.04663587361574173
 			],
 			"rotation": [
 				1.5707963267948966,
@@ -19,7 +20,7 @@
 			"scaling": [
 				1,
 				15,
-				0.7000000000000001
+				0.699999988079071
 			],
 			"pivotMatrix": {
 				"0": 1,
@@ -53,6 +54,7 @@
 			"isUnIndexed": false,
 			"geometryId": "db111e12-d40c-4999-bc29-d46cc88b4a13",
 			"subMeshes": null,
+			"materialId": "050a58f4-fbd3-4946-92ef-c3796e47ef23",
 			"metadata": {
 				"isPickable": true,
 				"script": {}
@@ -120,7 +122,6 @@
 			"indices": null
 		}
 	],
-	"materials": [],
 	"multiMaterials": [],
 	"lods": []
 }

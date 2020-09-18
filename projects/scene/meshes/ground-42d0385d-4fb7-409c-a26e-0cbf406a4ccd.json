@@ -4,13 +4,13 @@
 		{
 			"name": "ground",
 			"id": "42d0385d-4fb7-409c-a26e-0cbf406a4ccd",
-			"uniqueId": 16,
+			"uniqueId": 9,
 			"type": "Mesh",
 			"tags": "modified",
 			"position": [
-				0,
-				0,
-				0
+				-370.93360273192957,
+				112.85675469519154,
+				356.05318418026286
 			],
 			"rotationQuaternion": [
 				0,
@@ -19,9 +19,9 @@
 				1
 			],
 			"scaling": [
-				1000,
+				300,
 				0.10158729553222656,
-				988.512451171875
+				200
 			],
 			"localMatrix": {
 				"0": 1,

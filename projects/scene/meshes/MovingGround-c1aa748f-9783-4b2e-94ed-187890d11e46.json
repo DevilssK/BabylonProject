@@ -1,16 +1,15 @@
 {
-	"materials": [],
 	"meshes": [
 		{
 			"name": "MovingGround",
 			"id": "c1aa748f-9783-4b2e-94ed-187890d11e46",
-			"uniqueId": 128,
+			"uniqueId": 18,
 			"type": "Mesh",
 			"tags": "modified",
 			"position": [
-				-107.34499882135538,
-				16.44429458881662,
-				-299.5315179631518
+				140.9019896484466,
+				107.24775332643935,
+				266.5245301755249
 			],
 			"rotationQuaternion": [
 				0,
@@ -54,7 +53,6 @@
 			"isUnIndexed": false,
 			"geometryId": "9def35f2-a218-4982-b1c3-e2e788b1628b",
 			"subMeshes": null,
-			"materialId": "f699815b-e046-41ed-8b7c-d1f685e5a346",
 			"physicsMass": 0,
 			"physicsFriction": 0.2,
 			"physicsRestitution": 0,
@@ -62,7 +60,13 @@
 			"metadata": {
 				"isPickable": true,
 				"script": {
-					"name": "src/scenes/scene/movingPlatform.ts"
+					"name": "src/scenes/scene/movingPlatform.ts",
+					"properties": {
+						"inverted2": {
+							"type": "boolean",
+							"value": false
+						}
+					}
 				}
 			},
 			"instances": [],
@@ -128,6 +132,7 @@
 			"indices": null
 		}
 	],
+	"materials": [],
 	"multiMaterials": [],
 	"lods": []
 }

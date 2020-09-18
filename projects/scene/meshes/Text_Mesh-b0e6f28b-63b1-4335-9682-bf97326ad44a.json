@@ -1,0 +1,123 @@
+{
+	"meshes": [
+		{
+			"name": "Text_Mesh",
+			"id": "b0e6f28b-63b1-4335-9682-bf97326ad44a",
+			"uniqueId": 42,
+			"type": "Mesh",
+			"position": [
+				-1473.2272463489644,
+				0.05079364776611328,
+				-91.63858204594658
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scaling": [
+				1,
+				1,
+				1
+			],
+			"localMatrix": {
+				"0": 1,
+				"1": 0,
+				"2": 0,
+				"3": 0,
+				"4": 0,
+				"5": 1,
+				"6": 0,
+				"7": 0,
+				"8": 0,
+				"9": 0,
+				"10": 1,
+				"11": 0,
+				"12": 0,
+				"13": 0,
+				"14": 0,
+				"15": 1
+			},
+			"isEnabled": true,
+			"isVisible": true,
+			"infiniteDistance": false,
+			"pickable": true,
+			"receiveShadows": false,
+			"billboardMode": 0,
+			"visibility": 1,
+			"checkCollisions": false,
+			"isBlocker": false,
+			"overrideMaterialSideOrientation": null,
+			"isUnIndexed": false,
+			"geometryId": "eee5b2fc-31f1-498c-b08c-1e37e392c4fa",
+			"subMeshes": null,
+			"metadata": {
+				"isPickable": true
+			},
+			"instances": [],
+			"animations": [],
+			"ranges": [],
+			"layerMask": 268435455,
+			"alphaIndex": 1.7976931348623157e+308,
+			"hasVertexAlpha": false,
+			"overlayAlpha": 0.5,
+			"overlayColor": [
+				1,
+				0,
+				0
+			],
+			"applyFog": true,
+			"delayLoadingFile": "geometries/eee5b2fc-31f1-498c-b08c-1e37e392c4fa.babylonbinarymeshdata",
+			"boundingBoxMaximum": [
+				-1.2933930158615112,
+				1.1836789846420288,
+				0.08012200146913528
+			],
+			"boundingBoxMinimum": [
+				-1.4148650169372559,
+				1.138247013092041,
+				-0.04381600022315979
+			],
+			"_binaryInfo": {
+				"positionsAttrDesc": {
+					"count": 19197,
+					"stride": 3,
+					"offset": 0,
+					"dataType": 1
+				},
+				"normalsAttrDesc": {
+					"count": 19197,
+					"stride": 3,
+					"offset": 76788,
+					"dataType": 1
+				},
+				"uvsAttrDesc": {
+					"count": 12798,
+					"stride": 2,
+					"offset": 153576,
+					"dataType": 1
+				},
+				"indicesAttrDesc": {
+					"count": 7968,
+					"stride": 1,
+					"offset": 204768,
+					"dataType": 0
+				},
+				"subMeshesAttrDesc": {
+					"count": 1,
+					"stride": 5,
+					"offset": 236640,
+					"dataType": 0
+				}
+			},
+			"positions": null,
+			"normals": null,
+			"uvs": null,
+			"hasUVs": true,
+			"indices": null
+		}
+	],
+	"materials": [],
+	"multiMaterials": [],
+	"lods": []
+}
